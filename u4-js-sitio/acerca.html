@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acerca</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="banner" style="position:fixed; bottom:0; width:100%; background:#2c2c2c; color:#fff; text-align:center; padding:10px; font-size:14px;">
+  🍿 ¡Explora el mundo del cine y las series desde la pantalla de tu navegador!
+</div>
+  <header>
+    <h1 style="text-align: center;">Acerca</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-page="index" class="">Inicio</a></li>
+<li><a href="acerca.html" data-page="acerca" class="activo">Acerca</a></li>
+<li><a href="servicios.html" data-page="servicios" class="">Servicios</a></li>
+<li><a href="contacto.html" data-page="contacto" class="">Contacto</a></li>
+<li><a href="blog.html" data-page="blog" class="">Blog</a></li>
+<li><a href="articulo1.html" data-page="articulo1" class="">Artículo 1</a></li>
+<li><a href="articulo2.html" data-page="articulo2" class="">Artículo 2</a></li>
+<li><a href="galeria.html" data-page="galeria" class="">Galería</a></li>
+<li><a href="tabla.html" data-page="tabla" class="">Tabla</a></li>
+<li><a href="legal.html" data-page="legal" class="">Legal</a></li>
+      </ul>
+    </nav>
+    <div id="reloj" aria-live="polite" style="padding:8px;"></div>
+  </header>
+  <main>
+  
+    <section id="estadoApp" style="margin-bottom:16px;">
+      <p id="salida"></p>
+      <button id="btnVisitas" type="button">Sumar visita</button>
+      <span>Total visitas: <strong id="totalVisitas">0</strong></span>
+    </section>
+    <section id="cambioColor" style="margin-bottom:16px;">
+      <button type="button" data-color="#ffebee">Rojo</button>
+      <button type="button" data-color="#e8f5e9">Verde</button>
+      <button type="button" data-color="#e3f2fd">Azul</button>
+    </section>
+
+<h2>Nosotros</h2>
+<p>En Cine & Series Plus somos apasionados del séptimo arte y las historias que marcan generaciones. Nuestro objetivo es compartir contigo lo mejor del mundo del cine y la televisión: desde los grandes clásicos que nunca pasan de moda, hasta los estrenos más esperados que todos están comentando.
+
+Aquí encontrarás reseñas, recomendaciones, curiosidades y datos que harán que disfrutes aún más tus películas y series favoritas. Queremos ser ese lugar donde los fanáticos puedan descubrir nuevas historias, revivir sus escenas preferidas y debatir sobre cuál es la mejor saga o el final más sorprendente.
+
+Porque para nosotros, ver una película no es solo entretenimiento: es vivir emociones, viajar a otros mundos y conectar con personajes que se quedan en la memoria.</p>
+
+<div class="chips" style="margin-top:10px;">
+  <span class="chip">Películas</span>
+  <span class="chip">Series</span>
+  <span class="chip">Estrenos</span>
+  <span class="chip">Recomendaciones</span>
+</div>
+
+<section style="margin-top:16px;"><h3>Perfil</h3><div id="perfil"></div></section>
+<section style="margin-top:16px;">
+  <h3>Lista de notas</h3>
+  <form id="formNotas"><input type="text" name="nota" placeholder="Escribe una nota" /><button type="submit">Agregar</button><div id="errorNota" class="mensaje-error" style="display:none;"></div></form>
+  <ul id="listaNotas"></ul>
+</section>
+
+  </main>
+  <footer>© 2025 Mi Sitio. Todos los derechos reservados.</footer>
+  
+  <script src="js/app.js"></script>
+
+</body>
+</html>

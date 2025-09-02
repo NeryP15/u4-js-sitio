@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+ <div class="banner" style="position:fixed; bottom:0; width:100%; background:#2c2c2c; color:#fff; text-align:center; padding:10px; font-size:14px;">
+  🍿 ¡Explora el mundo del cine y las series desde la pantalla de tu navegador!
+</div>
+
+  <header>
+    <h1 style="text-align: center;">Inicio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-page="index" class="activo">Inicio</a></li>
+<li><a href="acerca.html" data-page="acerca"class="">Acerca</a></li>
+<li><a href="servicios.html" data-page="servicios"class="">Servicios</a></li>
+<li><a href="contacto.html" data-page="contacto"class="">Contacto</a></li>
+<li><a href="blog.html" data-page="blog"class="">Blog</a></li>
+<li><a href="articulo1.html" data-page="articulo1"class="">Artículo 1</a></li>
+<li><a href="articulo2.html" data-page="articulo2"class="">Artículo 2</a></li>
+<li><a href="galeria.html" data-page="galeria"class="">Galería</a></li>
+<li><a href="tabla.html" data-page="tabla"class="">Tabla</a></li>
+<li><a href="legal.html" data-page="legal"class="">Legal</a></li>
+      </ul>
+    </nav>
+    <div id="reloj" aria-live="polite" style="padding:8px;"></div>
+  </header>
+
+  <div class="banner-intro">
+  <h1>🎥 Bienvenido a tu galería cinematográfica</h1>
+  <p>Explora películas, series y documentales por género y estilo visual</p>
+</div>
+
+  <main>
+     <section id="estadoApp" style="margin-bottom:16px;">
+      <p id="salida"></p>
+      <button id="btnVisitas" type="button">Sumar visita</button>
+      <span>Total visitas: <strong id="totalVisitas">0</strong></span>
+    </section>
+    <section id="cambioColor" style="margin-bottom:16px;">
+      <button type="button" data-color="#ffebee">Rojo</button>
+      <button type="button" data-color="#e8f5e9">Verde</button>
+      <button type="button" data-color="#e3f2fd">Azul</button>
+    </section>
+  
+<section id="intro">
+  <h2>Bienvenido</h2>
+
+  <p class="hex"><strong>películas clásicas</strong> que nunca pasan de moda.</p>
+  <p class="rgb"><strong>series modernas</strong> con gran impacto visual.</p>
+  <p class="hsl"><strong>documentales</strong> llenos de color y realismo.</p>
+
+  <h3>Unidades</h3>
+  <p class="px"><strong>estrenos del cine</strong>.</p>
+  <p class="porcentaje"><strong>series populares</strong> que todos ven.</p>
+  <p class="em"><strong>comedias ligeras</strong> que se disfrutan en familia.</p>
+  <p class="rem"><strong>películas de acción</strong> que destacan en cualquier pantalla.</p>
+</section>
+
+<section class="tarjetas" style="margin-top:20px;">
+  <article class="tarjeta">
+    <h3>Recomendaciones</h3>
+    <p>Descubre películas y series que se adaptan a tus gustos.</p>
+  </article>
+  <article class="tarjeta">
+    <h3>Estrenos</h3>
+    <p>Conoce lo más reciente en cine y plataformas de streaming.</p>
+  </article>
+  <article class="tarjeta">
+    <h3>Curiosidades</h3>
+    <p>Explora datos curiosos y secretos detrás de cámaras.</p>
+  </article>
+</section>
+
+<section class="cajas" style="margin-top:20px;">
+  <div class="caja">🎬 Caja 1: <strong>Acción</strong>, explosiones y adrenalina.</div>
+  <div class="caja caja-2">😂 Caja 2: <strong>Comedia</strong>, risas aseguradas.</div>
+  <div class="caja caja-3">👻 Caja 3: <strong>Terror</strong>, historias para no dormir.</div>
+</section>
+
+<section style="margin-top:20px; text-align:center;">
+  <button id="botonBienvenida">Haz clic para personalizar tu experiencia</button>
+</section>
+
+  </main>
+  <footer>© 2025 Mi Sitio. Todos los derechos reservados.</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

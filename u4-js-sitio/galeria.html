@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+ <div class="banner" style="position:fixed; bottom:0; width:100%; background:#2c2c2c; color:#fff; text-align:center; padding:10px; font-size:14px;">
+  🍿 ¡Explora el mundo del cine y las series desde la pantalla de tu navegador!
+</div>
+  <header>
+    <h1 style="text-align: center;">Galería</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-page="index" class="">Inicio</a></li>
+<li><a href="acerca.html" data-page="acerca" class="">Acerca</a></li>
+<li><a href="servicios.html" data-page="servicios" class="">Servicios</a></li>
+<li><a href="contacto.html" data-page="contacto" class="">Contacto</a></li>
+<li><a href="blog.html" data-page="blog" class="">Blog</a></li>
+<li><a href="articulo1.html" data-page="articulo1" class="">Artículo 1</a></li>
+<li><a href="articulo2.html" data-page="articulo2" class="">Artículo 2</a></li>
+<li><a href="galeria.html" data-page="galeria" class="activo">Galería</a></li>
+<li><a href="tabla.html" data-page="tabla" class="">Tabla</a></li>
+<li><a href="legal.html" data-page="legal" class="">Legal</a></li>
+      </ul>
+    </nav>
+    <div id="reloj" aria-live="polite" style="padding:8px;"></div>
+  </header>
+  <main>
+  <section id="estadoApp" style="margin-bottom:16px;">
+      <p id="salida"></p>
+      <button id="btnVisitas" type="button">Sumar visita</button>
+      <span>Total visitas: <strong id="totalVisitas">0</strong></span>
+    </section>
+    <section id="cambioColor" style="margin-bottom:16px;">
+      <button type="button" data-color="#ffebee">Rojo</button>
+      <button type="button" data-color="#e8f5e9">Verde</button>
+      <button type="button" data-color="#e3f2fd">Azul</button>
+    </section>
+
+<h2>Galería de Películas y Series</h2>
+    <div class="galeria" role="list">
+      <figure role="listitem" class="item">
+        <img src="https://cdn.europosters.eu/image/750/stranger-things-seasons-i132237.jpg" alt="Stranger Things Poster" />
+        <figcaption>Stranger Things</figcaption>
+        <span class="etiqueta">🧪 Ciencia Ficción</span>
+      </figure>
+      <figure role="listitem" class="item">
+        <img src="https://www.ubuy.com.co/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvOTFSTlNNTkpsc0wuX0FDX1NMMTUwMF8uanBn.jpg" alt="Breaking Bad Poster" />
+        <figcaption>Breaking Bad</figcaption>
+        <span class="etiqueta">🎭 Drama</span>
+      </figure>
+      <figure role="listitem" class="item">
+        <img src="https://i.pinimg.com/originals/8e/0d/ab/8e0dab8699be85720ce55845065bf6dc.jpg" alt="Interstellar Poster" />
+        <figcaption>Interstellar</figcaption>
+        <span class="etiqueta">🚀 Ciencia Ficción</span>
+      </figure>
+      <figure role="listitem" class="item">
+        <img src="https://i.ebayimg.com/images/g/mcwAAOSwx8FmS2Sc/s-l1200.jpg" alt="The Crown Poster" />
+        <figcaption>The Crown</figcaption>
+        <span class="etiqueta">👑 Histórico</span>
+      </figure>
+    </div>
+
+  </main>
+  <footer>© 2025 Mi Sitio. Todos los derechos reservados.</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

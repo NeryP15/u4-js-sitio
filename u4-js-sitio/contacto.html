@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+ <div class="banner" style="position:fixed; bottom:0; width:100%; background:#2c2c2c; color:#fff; text-align:center; padding:10px; font-size:14px;">
+  🍿 ¡Explora el mundo del cine y las series desde la pantalla de tu navegador!
+</div>
+  <header>
+    <h1 style="text-align: center;">Contacto</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-page="index" class="">Inicio</a></li>
+<li><a href="acerca.html" data-page="acerca" class="">Acerca</a></li>
+<li><a href="servicios.html" data-page="servicios" class="">Servicios</a></li>
+<li><a href="contacto.html" data-page="contacto" class="activo">Contacto</a></li>
+<li><a href="blog.html" data-page="blog" class="">Blog</a></li>
+<li><a href="articulo1.html" data-page="articulo1" class="">Artículo 1</a></li>
+<li><a href="articulo2.html" data-page="articulo2" class="">Artículo 2</a></li>
+<li><a href="galeria.html" data-page="galeria" class="">Galería</a></li>
+<li><a href="tabla.html" data-page="tabla" class="">Tabla</a></li>
+<li><a href="legal.html" data-page="legal" class="">Legal</a></li>
+      </ul>
+    </nav>
+    <div id="reloj" aria-live="polite" style="padding:8px;"></div>
+  </header>
+
+  <main>
+   <section id="estadoApp" style="margin-bottom:16px;">
+      <p id="salida"></p>
+      <button id="btnVisitas" type="button">Sumar visita</button>
+      <span>Total visitas: <strong id="totalVisitas">0</strong></span>
+    </section>
+    <section id="cambioColor" style="margin-bottom:16px;">
+      <button type="button" data-color="#ffebee">Rojo</button>
+      <button type="button" data-color="#e8f5e9">Verde</button>
+      <button type="button" data-color="#e3f2fd">Azul</button>
+    </section>
+
+<h2>Contáctanos</h2>
+<form id="formContacto" novalidate>
+  <label for="nombre">Nombre</label>
+  <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" />
+  <div id="err_nombre" class="mensaje-error" style="display:none;"></div>
+
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com"/>
+  <div id="err_email" class="mensaje-error" style="display:none;"></div>
+
+  <label for="tema">Tema</label>
+  <select id="tema" name="tema"><option>Consulta</option><option>Soporte</option><option>Otro</option></select>
+
+  <label for="mensaje">Mensaje</label>
+  <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+  <div id="err_mensaje" class="mensaje-error" style="display:none;"></div>
+
+  <button type="submit">Enviar</button>
+  <div id="msgOk" style="display:none; color:#2e7d32; margin-top:8px;"></div>
+</form>
+<p style="margin-top:12px;">Ejemplo estado: <input class="error" placeholder="Input con .error" /></p>
+
+  </main>
+  <footer>© 2025 Mi Sitio. Todos los derechos reservados.</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
