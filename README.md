@@ -34,14 +34,23 @@ Sitio web académico desarrollado como parte de la Unidad 4 del curso de JavaScr
 ## Evidencia visual
 
 ### Página principal
-![Inicio](capturas/inicio.png)
+![Inicio](img/inicio1.png)
+![Inicio](img/inicio2.png)
+
+### Acerca
+![Acerca](img/acerca.png)
 
 ### Galería
 ![Galería](capturas/galeria.png)
 
 ### Servicios con buscador
-![Servicios](capturas/servicios.png)
+![Servicios](img/servicios.png)
 
 ### Tabla comparativa
-![Tabla](capturas/tabla.png)
+![Tabla](img/tabla.png)
+
+### Contacto
+![Contacto](img/contacto.png)
+
+
 
